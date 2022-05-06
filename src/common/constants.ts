@@ -1,0 +1,59 @@
+export enum RabbitMQ{
+  PersonasQueue = 'personas',
+  UsuariosQueue = 'usuarios',
+  CuentasQueue = 'cuentas',
+  RepresentantesQueue = 'Representantes',
+  MonitorsQueue = 'Monitors',
+  FiltrosQueue = 'Filtros',
+}
+export enum PersonaMSG {
+  CREATE = 'CREATE_PERSONA',
+  FIND_ALL = 'FIND_PERSONAS',
+  FIND_ONE = 'FIND_PERSONA',
+  UPDATE = 'UPDATE_PERSONA',
+  DELETE = 'DELETE_PERSONA',
+  VALID_USER = 'VALID_PERSONA',
+}
+export enum UsuarioMSG {
+  CREATE = 'CREATE_USUARIO',
+  FIND_ALL = 'FIND_USUARIOS',
+  FIND_ONE = 'FIND_USUARIO',
+  UPDATE = 'UPDATE_USUARIO',
+  DELETE = 'DELETE_USUARIO',
+  VALID_USER = 'VALID_USUARIO',
+}
+export enum CuentaMSG {
+  CREATE = 'CREATE_CUENTA',
+  FIND_ALL = 'FIND_CUENTAS',
+  FIND_ONE = 'FIND_CUENTA',
+  UPDATE = 'UPDATE_CUENTA',
+  DELETE = 'DELETE_CUENTA',
+  VALID_USER = 'VALID_CUENTA',
+  ADD_REPRESENTANTE = 'ADD_REPRESENTANTE',
+}
+export enum RepresentanteMSG {
+  CREATE = 'CREATE_REPRESENTANTE',
+  FIND_ALL = 'FIND_REPRESENTANTES',
+  FIND_ONE = 'FIND_REPRESENTANTE',
+  UPDATE = 'UPDATE_REPRESENTANTE',
+  DELETE = 'DELETE_REPRESENTANTE',
+  VALID_USER = 'VALID_REPRESENTANTE',
+}
+
+export enum MonitorMSG {
+  CREATE = 'CREATE_MONITOR',
+  FIND_ALL = 'FIND_MONITORS',
+  FIND_ONE = 'FIND_MONITOR',
+  UPDATE = 'UPDATE_MONITOR',
+  DELETE = 'DELETE_MONITOR',
+  VALID_USER = 'VALID_MONITOR',
+}
+
+export enum FiltroMSG {
+  CREATE = 'CREATE_FILTRO',
+  FIND_ALL = 'FIND_FILTROS',
+  FIND_ONE = 'FIND_FILTRO',
+  UPDATE = 'UPDATE_FILTRO',
+  DELETE = 'DELETE_FILTRO',
+  VALID_USER = 'VALID_FILTRO',
+}
